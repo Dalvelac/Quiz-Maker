@@ -1,4 +1,4 @@
-# ℚ𝕦𝕚𝕫-𝕠-ℕ𝕒𝕥𝕠𝕣 📋
+# 📋 ℚ𝕦𝕚𝕫-𝕠-ℕ𝕒𝕥𝕠𝕣 📋
 
 Quiz-o-Nator es una aplicación de quiz en línea de comandos escrita en C++ que permite cargar preguntas y respuestas desde un archivo de texto. El programa es interactivo, muestra menús y resultados en tiempo real. 🚀
 

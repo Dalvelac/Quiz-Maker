@@ -77,7 +77,7 @@ void runTest(const std::vector<Question>& testSet, std::vector<std::string>& mis
             letter++;
         }
 
-        std::cout << MAGENTA << "Tu respuesta (ej. A): " << RESET;
+        std::cout << MAGENTA << "Tu respuesta: " << RESET;
         std::string userInput;
         std::getline(std::cin, userInput);
         while (userInput.empty()) {

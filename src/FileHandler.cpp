@@ -45,11 +45,17 @@ std::vector<Question> FileHandler::loadQuestionsFromFile(const std::string &file
     int correctCount = 0; // Contador para verificar que haya una sola respuesta correcta
 
     while (std::getline(file, line)) {
+        // Mostrar la línea original leída (debug)
+        std::cout << "[DEBUG] Línea original: \"" << line << "\"\n";
+
         // Eliminar BOM (sólo en la primera línea, si está presente)
         line = removeBOM(line);
         // Eliminar espacios y saltos de línea al inicio y al final
         line.erase(0, line.find_first_not_of(" \t\r\n"));
         line.erase(line.find_last_not_of(" \t\r\n") + 1);
+
+        // Mostrar la línea limpia (debug)
+        std::cout << "[DEBUG] Línea limpia: \"" << line << "\"\n";
 
         // Ignorar líneas vacías
         if (line.empty())
@@ -85,11 +91,11 @@ std::vector<Question> FileHandler::loadQuestionsFromFile(const std::string &file
                 }
                 isCorrectOption = true;
                 correctCount++;
-                // Quitar el '*' y los espacios iniciales
+                // Quitar el '*' y limpiar espacios
                 line = line.substr(1);
                 line.erase(0, line.find_first_not_of(" \t\r\n"));
             }
-            // Limpiar el prefijo original ("A) ", etc.)
+            // Limpiar el prefijo original ("A) ", etc.) de la opción
             std::string cleanedLine = cleanOptionPrefix(line);
 
             option.text = cleanedLine;

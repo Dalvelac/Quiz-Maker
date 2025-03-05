@@ -4,8 +4,24 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cctype>
 
-// Función para eliminar el BOM (si existe) de una línea
+// Función auxiliar para limpiar prefijos como "A) ", "B) ", "*C) ", etc.
+std::string cleanOptionPrefix(const std::string &input) {
+    std::string line = input;
+    // Si la línea comienza con '*', se elimina (ya se usó para marcar la opción correcta)
+    if (!line.empty() && line[0] == '*') {
+        line.erase(0, 1); // Eliminar el '*'
+    }
+    // Si tras quitar '*' la línea comienza con "X) " (donde X es una letra), se elimina ese prefijo
+    if (line.size() >= 3 && std::isalpha(static_cast<unsigned char>(line[0]))
+        && line[1] == ')' && line[2] == ' ') {
+        line.erase(0, 3); // Eliminar "X) "
+    }
+    return line;
+}
+
+// Función auxiliar para eliminar el BOM (si existe) de una línea
 std::string removeBOM(const std::string& line) {
     std::string res = line;
     const std::string bom = "\xEF\xBB\xBF";
@@ -29,62 +45,60 @@ std::vector<Question> FileHandler::loadQuestionsFromFile(const std::string &file
     int correctCount = 0; // Contador para verificar que haya una sola respuesta correcta
 
     while (std::getline(file, line)) {
-        // Imprimir la línea sin modificar (debug)
-        std::cout << "[DEBUG] Línea original: \"" << line << "\"\n";
-
-        // Elimina el BOM (sólo en la primera línea, si está presente)
+        // Eliminar BOM (sólo en la primera línea, si está presente)
         line = removeBOM(line);
-
-        // Elimina espacios en blanco iniciales y finales
+        // Eliminar espacios y saltos de línea al inicio y al final
         line.erase(0, line.find_first_not_of(" \t\r\n"));
         line.erase(line.find_last_not_of(" \t\r\n") + 1);
 
-        // Imprimir la línea después de limpieza
-        std::cout << "[DEBUG] Línea limpia: \"" << line << "\"\n";
-
         // Ignorar líneas vacías
-        if (line.empty()) continue;
+        if (line.empty())
+            continue;
 
-        // Si encontramos el separador de preguntas
+        // Si encontramos el separador de pregunta '---'
         if (line == "---") {
             if (!currentQuestion.questionText.empty() && !currentQuestion.options.empty() && correctCount == 1) {
                 questions.push_back(currentQuestion);
             } else {
                 std::cerr << "⚠️ Advertencia: Se encontró una pregunta mal formateada en el archivo.\n";
             }
-            currentQuestion = Question(); // Reset
-            correctCount = 0; // Reset
+            currentQuestion = Question(); // Reiniciar la pregunta actual
+            correctCount = 0;
             continue;
         }
 
-        // Si aún no se ha asignado el enunciado, esta línea es la pregunta
+        // La primera línea del bloque es el enunciado de la pregunta
         if (currentQuestion.questionText.empty()) {
             currentQuestion.questionText = line;
         } else {
-            // Manejo de opciones de respuesta
+            // Procesar una opción de respuesta
             Option option;
+            bool isCorrectOption = false;
+
+            // Si la línea comienza con '*' se marca como respuesta correcta
             if (!line.empty() && line[0] == '*') {
                 if (correctCount > 0) {
                     std::cerr << "⚠️ Advertencia: Se encontraron múltiples respuestas correctas en una pregunta. Ignorando la pregunta.\n";
-                    // Reiniciamos la pregunta y continuamos con la siguiente
                     currentQuestion = Question();
                     correctCount = 0;
                     continue;
                 }
-                option.isCorrect = true;
+                isCorrectOption = true;
                 correctCount++;
-                // Quitar el '*' y limpiar espacios de la opción
+                // Quitar el '*' y los espacios iniciales
                 line = line.substr(1);
                 line.erase(0, line.find_first_not_of(" \t\r\n"));
-            } else {
-                option.isCorrect = false;
             }
-            option.text = line;
+            // Limpiar el prefijo original ("A) ", etc.)
+            std::string cleanedLine = cleanOptionPrefix(line);
+
+            option.text = cleanedLine;
+            option.isCorrect = isCorrectOption;
             currentQuestion.options.push_back(option);
         }
     }
 
-    // Agregar la última pregunta si el archivo no termina en "---"
+    // Agregar la última pregunta si el archivo no termina en '---'
     if (!currentQuestion.questionText.empty() && !currentQuestion.options.empty() && correctCount == 1) {
         questions.push_back(currentQuestion);
     }

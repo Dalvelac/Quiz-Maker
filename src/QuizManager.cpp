@@ -14,7 +14,6 @@
 #ifdef _WIN32
 #include <cstdio>
 #else
-#include <stdio.h>
 #endif
 
 // Definiciones de colores ANSI
@@ -204,7 +203,7 @@ void QuizManager::startQuiz() {
             std::cout << YELLOW << "2. Copiar a portapapeles las preguntas incorrectas" << RESET << "\n";
             std::cout << YELLOW << "3. Reiniciar (repetir el mismo test)" << RESET << "\n";
             std::cout << YELLOW << "4. Reiniciar con otras preguntas" << RESET << "\n";
-            std::cout << YELLOW << "5. Salir al menú principal" << RESET << "\n";
+            std::cout << YELLOW << "5. Salir" << RESET << "\n";
             std::cout << YELLOW << "6. Abrir archivo de preguntas para repaso" << RESET << "\n";
             std::cout << YELLOW << "Elige una opción (1-6): " << RESET;
 

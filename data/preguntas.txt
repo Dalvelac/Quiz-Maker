@@ -1,0 +1,711 @@
+¿Qué es una red de comunicaciones?
+A) Un conjunto de dispositivos aislados sin conexión
+B) Un sistema de transmisión de energía eléctrica
+*C) Un conjunto de dispositivos y protocolos que permiten la transmisión de datos
+D) Una estructura de almacenamiento de información
+---
+¿Cuál es la función principal de un protocolo de red?
+A) Incrementar la velocidad de transmisión sin controlar errores
+B) Asignar direcciones físicas a los dispositivos
+*C) Establecer normas para la comunicación entre dispositivos
+D) Convertir señales analógicas en digitales
+---
+¿En qué capa del modelo OSI se realiza la transmisión física de los datos?
+A) Capa de Aplicación
+B) Capa de Enlace de Datos
+*C) Capa Física
+D) Capa de Transporte
+---
+¿Cuál de los siguientes es un protocolo de la capa de transporte?
+A) IP
+*B) TCP
+C) ARP
+D) Ethernet
+---
+¿Qué dispositivo se utiliza para conectar diferentes redes y determinar la mejor ruta para los datos?
+A) Switch
+B) Concentrador (Hub)
+*C) Router
+D) Repetidor
+---
+¿Qué es una dirección MAC?
+A) Una dirección IP asignada por el servidor DHCP
+*B) Un identificador físico único asignado a una interfaz de red
+C) Una configuración de software para la seguridad de la red
+D) Un protocolo de enrutamiento entre redes
+---
+¿Qué técnica utiliza Ethernet para gestionar el acceso al medio y evitar colisiones?
+A) TDMA
+B) FDMA
+*C) CSMA/CD
+D) CDMA
+---
+¿Qué tipo de cable es el más utilizado en redes LAN por su eficiencia y costo?
+*A) Cable de par trenzado
+B) Fibra óptica
+C) Cable coaxial
+D) Cable de alimentación
+---
+¿Cuál de los siguientes estándares define la configuración del cableado Ethernet?
+A) IEEE 802.11
+B) ISO/IEC 27001
+*C) T-568A y T-568B
+D) IEEE 802.3
+---
+¿Qué función cumple el protocolo DHCP en una red?
+A) Gestionar la seguridad mediante encriptación
+B) Asignar direcciones MAC de forma manual
+*C) Asignar direcciones IP de forma dinámica
+D) Realizar la traducción de direcciones
+---
+¿En qué capa del modelo OSI se realiza la detección de errores mediante técnicas como CRC?
+A) Capa de Aplicación
+B) Capa de Sesión
+*C) Capa de Enlace de Datos
+D) Capa de Presentación
+---
+¿Cuál es la función principal del protocolo ICMP?
+A) Asignar direcciones IP a dispositivos
+B) Establecer conexiones seguras entre hosts
+*C) Enviar mensajes de control y notificar errores en la red
+D) Administrar la asignación de puertos
+---
+¿Qué significan las siglas CSMA/CD?
+A) Carrier Sense Multiple Access with Code Division
+B) Centralized System Management and Access Control
+*C) Carrier Sense Multiple Access with Collision Detection
+D) Communication System Multiple Access with Collision Division
+---
+¿Qué dispositivo opera principalmente en la capa de enlace de datos utilizando tablas de direcciones MAC?
+A) Router
+*B) Switch
+C) Módem
+D) Repetidor
+---
+¿Cuál es la diferencia principal entre un switch y un hub?
+A) El switch opera únicamente en la capa física
+B) El hub filtra los datos y el switch retransmite a todos
+*C) El switch envía los datos solo al puerto de destino, mientras que el hub los transmite a todos
+D) No existe diferencia, ambos realizan la misma función
+---
+En el modelo TCP/IP, ¿cuántas capas se definen típicamente?
+A) 3
+*B) 4
+C) 5
+D) 7
+---
+¿Qué categoría de cable Ethernet ofrece velocidades de transferencia superiores, por ejemplo, hasta 40 Gbps?
+A) CAT5
+B) CAT6
+C) CAT6A
+*D) CAT8
+---
+¿Cuál es el propósito de la estandarización de protocolos en redes de comunicaciones?
+A) Incrementar la complejidad de la red
+*B) Garantizar la interoperabilidad entre dispositivos y fabricantes
+C) Reducir el número de dispositivos necesarios
+D) Eliminar la necesidad de cables físicos
+---
+¿Qué elemento permite identificar de forma única a cada dispositivo en una red Ethernet?
+A) Dirección IP
+B) Número de puerto
+*C) Dirección MAC
+D) Nombre del dispositivo
+---
+¿Cuál de las siguientes afirmaciones describe mejor el modelo OSI?
+A) Es un modelo de referencia de cuatro capas exclusivamente para redes TCP/IP
+B) Es un estándar utilizado únicamente para redes inalámbricas
+*C) Es un modelo de referencia de siete capas que facilita el diseño y la comprensión de las comunicaciones
+D) Es un protocolo que establece la velocidad de transmisión de datos
+---
+¿Qué es el modelo OSI?
+A) Modelo de conexión de redes
+B) Modelo de comunicación cerrado
+*C) Modelo de Interconexión de Sistemas Abiertos
+D) Modelo de procesamiento de datos
+---
+¿Cuál es la principal función de la capa de transporte?
+A) Formatear los datos para la presentación
+B) Establecer enlaces físicos entre dispositivos
+*C) Proporcionar una comunicación confiable de extremo a extremo
+D) Gestionar el direccionamiento lógico
+---
+¿Qué significa ARP?
+A) Advanced Routing Protocol
+B) Automatic Relay Process
+*C) Address Resolution Protocol
+D) Access Routing Procedure
+---
+¿Qué tecnología utiliza Ethernet para detectar colisiones en la red?
+A) CSMA/CA
+B) TDMA
+*C) CSMA/CD
+D) FDMA
+---
+¿Qué componente de red asigna direcciones IP de forma automática a los dispositivos?
+A) DNS
+B) ICMP
+*C) DHCP
+D) FTP
+---
+¿Qué función cumple un switch en una red?
+A) Conectar diferentes redes mediante enrutamiento
+B) Ampliar la señal para mayor alcance
+*C) Filtrar y reenviar tramas según la dirección MAC de destino
+D) Convertir señales digitales en analógicas
+---
+¿Qué es una dirección MAC?
+A) Dirección lógica asignada por un servidor
+B) Protocolo de enrutamiento en la capa de red
+*C) Identificador físico único de una interfaz de red
+D) Dirección asignada dinámicamente por DHCP
+---
+¿Cuál es la principal ventaja de utilizar cables de fibra óptica en una red?
+A) Menor costo de instalación
+B) Mayor flexibilidad mecánica
+*C) Mayor ancho de banda y menor interferencia electromagnética
+D) Facilidad para la conexión de dispositivos móviles
+---
+¿Qué estandar de cableado utiliza los códigos T-568A y T-568B?
+A) Cables CAT3
+B) Cables de fibra óptica
+*C) Cables Ethernet
+D) Cables coaxiales
+---
+¿Qué capa del modelo OSI se encarga de la encriptación y compresión de datos?
+A) Capa física
+B) Capa de sesión
+*C) Capa de presentación
+D) Capa de aplicación
+---
+¿Qué dispositivo se utiliza para ampliar el alcance de una red repitiendo la señal?
+A) Switch
+B) Router
+*C) Repetidor
+D) Puente de red
+---
+¿Qué significa TCP en el contexto de redes?
+A) Transfer Control Protocol
+B) Transmission Configuration Protocol
+*C) Transmission Control Protocol
+D) Total Connection Protocol
+---
+¿Cuál de los siguientes es un ejemplo de medio de transmisión no guiado?
+A) Cable coaxial
+B) Par trenzado
+*C) Ondas de radio
+D) Fibra óptica
+---
+¿Qué dispositivo se encarga de unir segmentos de red mediante el filtrado de tramas y reducción de colisiones?
+A) Concentrador (Hub)
+*B) Switch
+C) Repetidor
+D) Modem
+---
+¿Qué técnica utiliza Ethernet para escuchar el medio antes de transmitir?
+A) Token Passing
+B) Polling
+*C) Carrier Sense
+D) Time Division Multiplexing
+---
+¿Qué función cumple el protocolo ICMP?
+A) Asignar direcciones IP a dispositivos
+B) Transferir archivos entre hosts
+*C) Enviar mensajes de error y control en la red
+D) Establecer conexiones seguras entre dispositivos
+---
+¿Qué es una trama Ethernet?
+A) Un paquete de datos de la capa de red
+*B) Una unidad de datos de la capa de enlace de datos
+C) Una señal física transmitida por el medio
+D) Un protocolo de enrutamiento interno
+---
+¿Cuál es la principal diferencia entre un hub y un switch?
+A) El hub filtra tramas por dirección MAC y el switch no
+B) El switch opera en la capa física y el hub en la capa de enlace
+*C) El switch filtra y reenvía tramas por dirección MAC, mientras que el hub transmite a todos los puertos
+D) No existe diferencia, ambos funcionan de la misma manera
+---
+¿Qué capa del modelo OSI es responsable del enrutamiento de datos?
+A) Capa de transporte
+*B) Capa de red
+C) Capa de enlace de datos
+D) Capa física
+---
+¿Qué significa DNS en redes de comunicaciones?
+A) Direct Network Service
+B) Dynamic Number System
+*C) Domain Name System
+D) Digital Network System
+---
+¿Cuál es la topología de red que utiliza un único cable backbone al que se conectan todos los nodos?
+A) Estrella
+B) Anillo
+*C) Bus
+D) Malla
+---
+¿Qué topología de red utiliza un token para controlar el acceso al medio?
+A) Bus
+B) Estrella
+*C) Anillo
+D) Malla
+---
+¿Cuál es la principal ventaja de utilizar una topología en malla?
+A) Bajo costo de instalación
+B) Sencillez de configuración
+*C) Alta tolerancia a fallos
+D) Facilidad de expansión
+---
+¿Qué organismo es responsable de la administración global de nombres de dominio y direcciones IP?
+A) IETF
+B) IEEE
+*C) IANA
+D) TIA/EIA
+---
+¿Cuál es la función principal de la ICANN en Internet?
+A) Desarrollar hardware para redes
+B) Proporcionar servicios de encriptación
+*C) Regular y coordinar la administración de nombres de dominio y direcciones IP
+D) Diseñar protocolos de comunicación
+---
+¿Qué diferencia existe entre un dispositivo DTE y un DCE en una red?
+A) DTE se encarga del enrutamiento, DCE de la encriptación
+*B) DTE es el equipo terminal que genera o consume datos, mientras que DCE transmite y modula la señal
+C) DTE y DCE son equivalentes en función
+D) DTE es software y DCE es hardware
+---
+¿Cuál es una característica distintiva del cable CAT7A en comparación con el CAT7?
+A) Menor capacidad de transmisión
+B) Menor longitud máxima
+*C) Mayor frecuencia operativa, alcanzando hasta 1000 MHz
+D) Menor protección contra interferencias
+---
+¿Qué proceso permite dividir un datagrama IP en fragmentos para su transmisión en enlaces con MTU reducida?
+A) Multiplexación
+B) Encriptación
+*C) Fragmentación
+D) Encapsulación
+---
+¿Cuál es la función principal de una tabla de enrutamiento en un router?
+A) Asignar direcciones MAC a dispositivos
+B) Convertir señales analógicas en digitales
+*C) Determinar la mejor ruta para cada paquete de datos
+D) Filtrar el tráfico entrante y saliente
+---
+¿Qué diferencia fundamental existe entre el enrutamiento estático y el enrutamiento dinámico?
+A) El estático se actualiza automáticamente, el dinámico no
+*B) El dinámico se adapta a los cambios de la red, mientras que el estático se configura manualmente
+C) No hay diferencia, ambos funcionan de la misma manera
+D) El estático solo se utiliza en redes inalámbricas
+---
+¿Qué protocolo de enrutamiento interior utiliza el algoritmo de Dijkstra para calcular la ruta más corta?
+A) RIP
+B) BGP
+*C) OSPF
+D) EIGRP
+---
+¿Qué protocolo de enrutamiento se utiliza principalmente para intercambiar rutas entre diferentes sistemas autónomos?
+A) OSPF
+B) RIP
+*C) BGP
+D) ICMP
+---
+¿Qué se entiende por segmentación en la transmisión de datos?
+A) La combinación de varios mensajes en uno solo
+B) La encriptación de la información antes de transmitirla
+*C) La división de un mensaje grande en paquetes más pequeños
+D) El proceso de reensamblar los datos en el destino
+---
+¿Qué significa MTU en el contexto de redes de comunicaciones?
+A) Minimum Transfer Unit
+B) Maximum Time Unit
+*C) Maximum Transmission Unit
+D) Multiple Transmission Unit
+---
+¿Cuál es el propósito de la detección de portadora en una red Ethernet?
+A) Reensamblar los paquetes transmitidos
+B) Convertir datos analógicos en digitales
+*C) Verificar que el medio esté libre antes de transmitir
+D) Dividir los datos en tramas
+---
+¿Qué describe el modo CSMA 1-persistente en el acceso al medio?
+A) Transmitir después de un retraso aleatorio
+B) Esperar a que otro dispositivo inicie la transmisión
+*C) Escuchar constantemente y transmitir inmediatamente al detectar un medio libre
+D) Transmitir únicamente en intervalos fijos
+---
+¿Qué es el "Inter Frame Gap" en una transmisión Ethernet?
+A) La secuencia de preámbulo que inicia la trama
+B) La porción del paquete que contiene los datos
+*C) Un intervalo de tiempo entre el envío de tramas para permitir la sincronización
+D) El mecanismo para detectar colisiones en la red
+---
+¿Cuál es el objetivo principal del proceso de estandarización de protocolos en redes de comunicaciones?
+A) Incrementar la complejidad de los sistemas de red
+B) Restringir el acceso a la tecnología
+*C) Garantizar la interoperabilidad entre dispositivos y fabricantes
+D) Aumentar las velocidades de transmisión sin considerar errores
+---
+¿Qué ventaja ofrece el uso de VLANs en una red Ethernet?
+A) Incremento de la velocidad de transmisión física
+B) Eliminación de la necesidad de direcciones IP
+*C) Segmentación del tráfico de red y mejora de la seguridad
+D) Reducción de la cantidad de cables necesarios
+¿Cuál es la función de la máscara de subred en el direccionamiento IP?
+A) Asignar direcciones MAC a dispositivos
+B) Determinar la parte de red y la parte de host de una dirección IP
+*C) Separar la dirección IP en dos segmentos: red y host
+D) Incrementar el número de direcciones disponibles
+---
+¿Cuál es el propósito de la fragmentación en el protocolo IP?
+A) Unir varios datagramas en uno solo
+B) Mejorar la seguridad de la transmisión de datos
+*C) Dividir un datagrama grande en fragmentos más pequeños para adaptarse al MTU del enlace
+D) Reenviar paquetes a través de diferentes rutas
+---
+¿Qué campo de la cabecera IP identifica de forma única a un datagrama?
+A) TTL (Time to Live)
+B) Protocolo
+*C) Identification
+D) Checksum
+---
+¿Qué función cumple el protocolo RARP?
+A) Resolver nombres de dominio en direcciones IP
+*B) Obtener una dirección IP a partir de una dirección MAC
+C) Controlar el acceso a medios de transmisión
+D) Asignar direcciones IP dinámicamente
+---
+¿Cuál es la principal característica del protocolo UDP?
+A) Garantiza la entrega de datos en orden
+*B) Opera de forma no orientada a la conexión, sin comprobación de errores
+C) Realiza la fragmentación y reensamblaje de datagramas
+D) Establece una conexión segura entre dispositivos
+---
+¿Qué tipo de transmisión se caracteriza por enviar datos de un punto a otro único?
+A) Broadcast
+B) Multicast
+*C) Unicast
+D) Anycast
+---
+¿Qué tipo de transmisión se utiliza para enviar datos a un grupo específico de dispositivos?
+A) Unicast
+B) Broadcast
+*C) Multicast
+D) Difusión selectiva
+---
+¿Cuál es la función del campo de verificación de trama (FCS) en una trama Ethernet?
+A) Establecer la dirección IP del emisor
+B) Definir el tipo de protocolo de la capa de red
+*C) Detectar errores en la transmisión de la trama
+D) Controlar el flujo de datos en la red
+---
+¿Qué caracteriza al método CSMA no-persistente en el acceso al medio?
+A) Transmite inmediatamente al detectar un canal libre
+B) Espera un tiempo fijo antes de transmitir siempre
+*C) Espera un tiempo aleatorio si el medio está ocupado antes de retransmitir
+D) Transmite de forma continua sin comprobar el estado del canal
+---
+¿Qué indica el "Inter Frame Gap" en una red Ethernet?
+A) El tiempo de transmisión de un paquete
+B) La duración de la preámbulo
+*C) Un intervalo de tiempo inactivo entre la transmisión de dos tramas
+D) El tiempo de respuesta del receptor
+---
+¿Cuál es la principal diferencia entre los protocolos TCP y UDP?
+A) TCP es para transmisión inalámbrica y UDP para cableada
+B) UDP garantiza la entrega en orden y TCP no
+*C) TCP es orientado a la conexión y garantiza la entrega, mientras que UDP es no orientado y sin confirmación
+D) UDP fragmenta los datos y TCP no
+---
+¿Qué campo del encabezado TCP se utiliza para el control de flujo de datos?
+A) Número de secuencia
+B) Suma de verificación
+*C) Tamaño de la ventana
+D) Bandera ACK
+---
+¿Qué se entiende por MAC spoofing en redes?
+A) La asignación dinámica de direcciones IP
+B) La modificación de la dirección IP de un dispositivo
+*C) La alteración o falsificación de la dirección MAC de un dispositivo
+D) El reenvío de tramas a través de un router
+---
+¿Cuál de las siguientes afirmaciones caracteriza a una dirección IP privada?
+A) Puede ser enrutada directamente en Internet
+B) Es asignada por la IANA para uso público
+*C) No es enrutable en Internet y se utiliza en redes internas
+D) Es única a nivel mundial sin posibilidad de duplicación
+---
+¿Qué función cumple el protocolo NAT en una red?
+A) Asignar direcciones MAC de forma automática
+B) Permitir la comunicación directa entre dispositivos privados
+*C) Traducir direcciones IP privadas a direcciones IP públicas y viceversa
+D) Controlar el acceso de usuarios a recursos compartidos
+---
+¿Qué organismo publica los RFC que definen muchos de los protocolos de Internet?
+A) ICANN
+B) IANA
+*C) IETF
+D) IEEE
+---
+¿Qué es una red WAN?
+A) Una red que conecta dispositivos dentro de un mismo edificio
+B) Una red que utiliza cables de par trenzado exclusivamente
+*C) Una red que interconecta redes locales en áreas geográficas amplias
+D) Una red diseñada para la transmisión de señales analógicas
+---
+¿Cuál es la función principal de la capa de sesión en el modelo OSI?
+A) Enviar datos a través del medio físico
+B) Realizar la detección de colisiones en la red
+*C) Gestionar y controlar las sesiones de comunicación entre aplicaciones
+D) Convertir datos en formatos comprensibles para el usuario
+---
+¿Qué característica distingue al cable coaxial de otros medios de transmisión guiados?
+A) Su capacidad para transmitir señales de alta frecuencia sin blindaje
+B) Su flexibilidad y bajo costo en comparación con el par trenzado
+*C) Poseer un núcleo central rodeado de blindaje que mejora la inmunidad a interferencias
+D) Su uso exclusivo en conexiones inalámbricas
+---
+¿Cuál es la función principal del protocolo SNMP en redes de comunicaciones?
+A) Encriptar datos para proteger la privacidad
+B) Asignar direcciones IP a dispositivos
+*C) Administrar y monitorear dispositivos de red de forma remota
+D) Reasignar direcciones MAC a dispositivos en caso de conflicto
+¿Qué es el preámbulo en una trama Ethernet?
+A) Campo que indica el tipo de protocolo
+B) Campo que contiene la dirección MAC
+*C) Secuencia de bits utilizada para sincronizar la transmisión
+D) Identificador de la trama
+---
+¿Cuál es la función del Start Frame Delimiter (SFD) en una trama Ethernet?
+A) Identificar la dirección de destino
+B) Indicar el final de la trama
+*C) Señalar el inicio de la trama tras el preámbulo
+D) Controlar el flujo de datos
+---
+¿Qué se entiende por encapsulamiento en redes de comunicaciones?
+A) Proceso de encriptar datos para mayor seguridad
+B) Conversión de datos analógicos en digitales
+*C) Agrupar datos junto con sus cabeceras y pies para la transmisión
+D) Separar datos en paquetes pequeños para enviar
+---
+¿Qué técnica de multiplexación es utilizada en Ethernet para compartir el medio de transmisión?
+A) Multiplexación por división de tiempo (TDM)
+B) Multiplexación por división de frecuencia (FDM)
+*C) Multiplexación por acceso múltiple (CSMA/CD)
+D) Multiplexación por división de código (CDMA)
+---
+¿Qué significa que un protocolo sea orientado a la conexión?
+A) Que no establece una sesión previa para la transmisión
+B) Que se utiliza únicamente en redes inalámbricas
+*C) Que establece una conexión previa y garantiza la entrega de datos
+D) Que envía datos sin verificar errores
+---
+¿Cuál es la función del control de congestión en el protocolo TCP?
+A) Incrementar la velocidad de transmisión sin límites
+B) Dividir datos en fragmentos iguales
+*C) Ajustar el flujo de datos para evitar saturar la red
+D) Asignar direcciones IP a cada dispositivo
+---
+¿Qué es el "timeout" en el contexto de la transmisión TCP?
+A) El tiempo que tarda un router en actualizar su tabla
+B) El intervalo fijo entre dos transmisiones consecutivas
+*C) El período de espera antes de retransmitir un paquete perdido
+D) La duración total de una conexión establecida
+---
+¿Qué es la ventana deslizante en TCP?
+A) Un método para encriptar datos
+B) Una técnica para asignar direcciones MAC
+*C) Un mecanismo para controlar la cantidad de datos enviados sin confirmación
+D) Un algoritmo para fragmentar paquetes
+---
+¿Qué método de enrutamiento se basa en la información de distancia para determinar rutas óptimas?
+A) Enrutamiento por estado de enlace
+B) Enrutamiento estático
+*C) Enrutamiento por vectores de distancia
+D) Enrutamiento multicast
+---
+¿Qué protocolo utiliza el método de enrutamiento por estado de enlace?
+A) RIP
+B) BGP
+*C) OSPF
+D) ICMP
+---
+¿Cuál es la función del campo Time to Live (TTL) en la cabecera IP?
+A) Indicar la prioridad del paquete
+B) Especificar el tamaño del paquete
+*C) Limitar el tiempo de vida del paquete para evitar bucles
+D) Determinar la ruta del paquete
+---
+¿Cuál es la función del checksum en la cabecera IP?
+A) Encriptar el contenido del paquete
+B) Asignar direcciones lógicas a dispositivos
+*C) Detectar errores en la cabecera durante la transmisión
+D) Dividir el paquete en fragmentos
+---
+¿Qué se denomina "payload" en una trama Ethernet?
+A) El preámbulo
+B) La secuencia de verificación de errores
+*C) La carga útil o datos transportados
+D) El campo que define el tipo de protocolo
+---
+¿Qué significa que un protocolo sea "sin conexión"?
+A) Que establece una conexión antes de enviar datos
+B) Que requiere una sesión permanente entre dispositivos
+*C) Que envía datos sin establecer previamente una conexión formal
+D) Que utiliza técnicas de verificación de errores en cada paquete
+---
+¿Cuál es la diferencia entre unicast y anycast?
+A) Unicast envía datos a todos los dispositivos, anycast a uno
+B) Anycast es exclusivo de redes inalámbricas
+*C) Unicast envía datos a un único destino; anycast envía a uno de varios destinos que comparten la misma dirección
+D) No existe diferencia, ambos son sinónimos
+---
+¿Qué representa el término "routing" en redes de comunicaciones?
+A) La encriptación de datos antes de transmitirlos
+B) La conversión de señales digitales en analógicas
+*C) El proceso de determinar la mejor ruta para el envío de paquetes
+D) La fragmentación de datos en segmentos
+---
+¿Qué se entiende por "arquitectura de Internet"?
+A) La disposición física de los cables en una red local
+B) Un único protocolo para la transmisión de datos
+*C) La estructura y organización de los componentes y protocolos que conforman Internet
+D) Un sistema operativo específico para servidores
+---
+¿Qué es un RFC en el contexto de Internet?
+A) Un protocolo de enrutamiento
+B) Una herramienta de administración de redes
+*C) Un documento que especifica estándares y protocolos de Internet
+D) Un tipo de dirección IP
+---
+¿Qué función cumple la capa de enlace de datos en el modelo OSI?
+A) Establecer la comunicación entre aplicaciones
+B) Realizar la encriptación de datos
+*C) Facilitar la transmisión de tramas entre nodos en la misma red
+D) Gestionar la asignación de direcciones IP
+---
+¿Qué es un concentrador (hub) y cuál es su función principal en una red?
+A) Un dispositivo que asigna direcciones IP a dispositivos conectados
+B) Un dispositivo que realiza el enrutamiento entre redes diferentes
+*C) Un dispositivo que retransmite señales a todos los puertos sin filtrar
+D) Un dispositivo que cifra y descifra las tramas antes de transmitirlas
+¿Qué es un dominio de colisiones en una red Ethernet?
+A) Un área donde se filtran las tramas por direcciones MAC
+B) Una zona donde los dispositivos comparten el mismo medio y las colisiones afectan a todos
+*C) Una porción de la red en la que una colisión de datos afecta a todos los dispositivos conectados
+D) Un segmento aislado que impide la difusión de colisiones
+---
+¿Qué se entiende por broadcast domain?
+A) El conjunto de dispositivos que pueden recibir un paquete enviado en modo unicast
+B) El área donde solo se transmiten datos cifrados
+*C) El conjunto de dispositivos que reciben paquetes enviados en modo broadcast
+D) Una red segmentada por routers
+---
+¿Qué función cumple un puente (bridge) en una red?
+A) Amplificar señales para mayor alcance
+B) Realizar la conversión de señales digitales a analógicas
+*C) Conectar y filtrar tramas entre segmentos de red basándose en direcciones MAC
+D) Asignar direcciones IP a los dispositivos
+---
+¿Qué es el ARP cache?
+A) Una herramienta para detectar colisiones en la red
+*B) Una tabla almacenada en un dispositivo que guarda las correspondencias entre direcciones IP y MAC
+C) Un protocolo para asignar direcciones IP dinámicamente
+D) Un método para cifrar la comunicación entre dispositivos
+---
+¿Qué se entiende por enrutamiento interno (IGP)?
+A) Un método para asignar direcciones IP a dispositivos externos
+*B) El proceso de enrutamiento utilizado dentro de un sistema autónomo o red interna
+C) Una técnica para distribuir el tráfico entre diferentes proveedores de Internet
+D) Un mecanismo para convertir direcciones MAC en direcciones IP
+---
+¿Qué es el enrutamiento externo (EGP)?
+A) La técnica para encriptar datos en una red local
+B) Un método para asignar direcciones IP a dispositivos internos
+*C) El proceso de intercambio de rutas entre diferentes sistemas autónomos en Internet
+D) Una forma de segmentar una red en subredes menores
+---
+¿Qué significa "proxy ARP"?
+A) La función de un router para asignar direcciones IP a dispositivos
+*B) La técnica por la cual un dispositivo responde a solicitudes ARP en nombre de otro dispositivo
+C) Un método para ocultar direcciones MAC mediante encriptación
+D) La conversión de direcciones IP públicas en privadas
+---
+¿Qué es la conmutación por paquetes?
+A) La transmisión de datos a través de circuitos dedicados
+B) El proceso de encriptar la información antes de enviarla
+*C) La técnica de dividir la información en paquetes que se transmiten independientemente por la red
+D) La agregación de múltiples señales en una sola transmisión
+---
+¿Qué son los números de puerto en la comunicación TCP/UDP?
+A) Identificadores únicos de cada dispositivo en la red
+B) Direcciones lógicas asignadas por DHCP
+*C) Números que identifican aplicaciones o servicios específicos en un host
+D) Códigos utilizados para la encriptación de datos
+---
+¿Qué rango de números de puerto se considera bien conocido?
+A) 1024 a 49151
+B) 49152 a 65535
+*C) 0 a 1023
+D) 1000 a 2000
+---
+¿Cuál es la función del protocolo TFTP?
+A) Permitir la transmisión segura de correos electrónicos
+B) Asignar direcciones IP dinámicamente
+*C) Facilitar la transferencia simple y sin autenticación de archivos entre dispositivos
+D) Administrar el enrutamiento de paquetes en la red
+---
+¿Qué mensaje envía un host para solicitar una respuesta de eco en ICMP?
+A) Echo Reply
+B) Destination Unreachable
+*C) Echo Request
+D) Time Exceeded
+---
+¿Qué es un Echo Reply en el protocolo ICMP?
+A) Un mensaje que indica la fragmentación del datagrama
+*B) La respuesta enviada por un host al recibir un Echo Request, confirmando su accesibilidad
+C) Una señal que informa de un error en la transmisión
+D) Un mensaje de control para asignar direcciones IP
+---
+¿Qué significa que una dirección IP sea estática?
+A) Que se asigna temporalmente por el servidor DHCP
+B) Que cambia con cada conexión a la red
+*C) Que se configura manualmente y no cambia automáticamente
+D) Que es asignada mediante protocolos de enrutamiento dinámico
+---
+¿Qué es la asignación dinámica de direcciones IP?
+A) La configuración manual de direcciones en cada dispositivo
+B) La asignación de direcciones IP por parte del router sin uso de protocolos
+*C) El proceso mediante el cual un servidor DHCP asigna direcciones IP automáticamente a los dispositivos
+D) La conversión de direcciones IP privadas a públicas
+---
+¿Qué se entiende por conmutación virtual en redes modernas?
+A) La transmisión de datos mediante señales analógicas
+B) El proceso de fragmentación de paquetes en redes de fibra óptica
+*C) La creación de conexiones lógicas independientes sobre una misma infraestructura física
+D) La asignación estática de direcciones IP a dispositivos
+---
+¿Qué es un enrutador de borde (edge router)?
+A) Un dispositivo que opera exclusivamente dentro de una LAN
+B) Un router que se utiliza para la conmutación interna en centros de datos
+*C) Un router que conecta una red interna con redes externas o Internet
+D) Un dispositivo que actúa como puente entre dos segmentos de la misma red
+---
+¿Qué representa el "hop count" en el enrutamiento de paquetes?
+A) La velocidad a la que se transmiten los datos
+B) La cantidad de bits en el paquete
+*C) El número de dispositivos intermedios (saltos) que atraviesa un paquete
+D) La duración total de la conexión establecida
+---
+¿Qué es el filtrado de direcciones MAC en un switch?
+A) Un método para asignar direcciones IP a dispositivos conectados
+B) La técnica de cifrar las tramas antes de reenviarlas
+*C) Un mecanismo para permitir o denegar el paso de tramas basado en la dirección MAC de origen o destino
+D) La función de reenvío de tramas a todos los puertos sin distinción
+---
+¿Qué se entiende por segmentación de mensajes en redes de conmutación de paquetes?
+A) La combinación de múltiples paquetes en una única transmisión
+B) El proceso de encriptar datos antes de su transmisión
+*C) La división de un mensaje grande en partes más pequeñas para su envío eficiente
+D) La eliminación de cabeceras redundantes en la transmisión de datos
+---
